@@ -1,0 +1,3 @@
+{"timestamp": "2025-09-05T19:20:19.073050", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-05T19:20:19.074786", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 0, "entities_redacted": 0, "error": "[WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\user\\\\OneDrive\\\\Desktop\\\\SigSecure-AI\\\\backend\\\\app\\\\data\\\\redacted\\\\redacted_test.pdf'"}
+{"timestamp": "2025-09-05T19:27:36.589400", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}

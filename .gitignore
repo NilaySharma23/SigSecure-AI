@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.pt
+*.pkl
+
+# Node.js
+frontend/node_modules/
+frontend/.env.local
+frontend/build/
+
+# Data
+data/temp_image_*
+data/*.log
+data/redacted_*
+
+# Misc
+.DS_Store
+*.env
