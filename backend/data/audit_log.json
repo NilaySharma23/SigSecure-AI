@@ -1,3 +1,493 @@
 {"timestamp": "2025-09-05T19:20:19.073050", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
 {"timestamp": "2025-09-05T19:20:19.074786", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 0, "entities_redacted": 0, "error": "[WinError 3] The system cannot find the path specified: 'C:\\\\Users\\\\user\\\\OneDrive\\\\Desktop\\\\SigSecure-AI\\\\backend\\\\app\\\\data\\\\redacted\\\\redacted_test.pdf'"}
 {"timestamp": "2025-09-05T19:27:36.589400", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:29:17.916769", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:36:47.162080", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:38:17.037994", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:38:40.992594", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:38:58.947485", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:39:14.786423", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:41:29.930289", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:41:41.546160", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:42:20.789335", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:45:23.756831", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:45:34.805798", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:45:50.712917", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:46:03.172114", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:51:18.599155", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-09T00:51:29.140510", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-09T00:51:42.900348", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-09T00:51:51.303355", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-09T00:57:58.728734", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:58:17.644861", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:58:51.039115", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T00:59:32.329758", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T01:09:03.390438", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T19:06:11.458048", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 9, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T19:31:47.649137", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 22, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T19:34:06.461041", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 22, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T19:46:00.322496", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 22, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T19:46:17.159811", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 22, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T20:11:27.141912", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T20:12:30.078457", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T20:12:43.883845", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T20:12:59.839395", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T22:45:47.883469", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T22:46:03.183092", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T22:46:27.600063", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T22:47:19.566779", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T22:56:33.195013", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T22:56:50.797480", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T22:57:10.289386", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T22:57:27.320056", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T22:59:53.251654", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T23:01:18.456121", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T23:01:40.058057", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T23:01:59.528109", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T23:02:31.322774", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 3, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-09T23:18:22.534885", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-09T23:18:35.352955", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-09T23:18:54.656229", "file": "test.pdf", "privacy_mode": "witness", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-09T23:19:10.395592", "file": "test.pdf", "privacy_mode": "medical", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T00:07:24.572293", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:07:33.049079", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:07:41.240436", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:07:46.040429", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:08:09.446157", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:08:24.089616", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:08:35.476029", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:08:49.864892", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T00:09:00.039000", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:09:08.907539", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:09:19.420618", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:09:31.343582", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:09:50.827554", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:19:26.822563", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:19:39.819948", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:19:52.031743", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:20:03.494141", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:20:15.897109", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:20:27.544579", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:21:13.997700", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:21:25.270701", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:21:37.326793", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:21:59.378884", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T00:22:10.415655", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:22:21.302353", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T00:29:58.445437", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:30:11.563147", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:30:25.851957", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:30:38.414615", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:30:51.649966", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:31:02.619597", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:31:18.138552", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:31:34.570153", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:31:44.923324", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:32:00.526518", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T00:32:14.463187", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:32:24.737600", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T00:48:24.574154", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T00:48:34.039656", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:48:53.247042", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:49:03.349678", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:49:13.631460", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:49:25.058820", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T00:49:47.057456", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 0, "entities_redacted": 0, "error": "Redaction failed"}
+{"timestamp": "2025-09-10T00:49:54.284856", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:50:05.040685", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T00:52:16.797985", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T01:02:12.296594", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T01:04:18.640288", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T01:04:29.736783", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T01:04:41.649918", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:04:50.539757", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:04:59.436850", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:05:09.718925", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T01:05:19.909424", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T01:05:31.082541", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 2, "error": null}
+{"timestamp": "2025-09-10T01:05:42.118559", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T01:05:53.253196", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T01:06:01.899104", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 1, "error": null}
+{"timestamp": "2025-09-10T01:06:12.877235", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T01:06:21.498908", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T01:06:29.839080", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 3, "error": null}
+{"timestamp": "2025-09-10T01:41:39.546002", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:40.165242", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:40.756431", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:41.344526", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:41.967505", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:42.588766", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:42.607922", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:41:52.579358", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:53.179138", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:53.791411", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:54.399959", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:54.983420", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:55.518852", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:41:55.537750", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:03.874015", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:04.411313", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:05.044221", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:05.615124", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:06.295077", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:06.843672", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:06.855832", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:15.144474", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:15.683748", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:16.249632", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:16.766402", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:17.308830", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:17.873255", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:17.884620", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:23.175528", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:23.746498", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:24.313311", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:24.848028", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:25.410482", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:25.973898", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:25.980775", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:31.467481", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:32.014834", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:32.582773", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:33.143940", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:33.701474", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:34.226397", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:34.238994", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:40.064265", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:40.598004", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:41.168627", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:41.712125", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:42.288913", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:42.850543", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:42.868520", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:49.157057", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:49.771644", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:50.362719", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:50.892106", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:51.470733", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:52.096642", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:52.108277", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:42:58.980474", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:42:59.548807", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:00.116285", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:00.677830", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:01.263595", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:01.909008", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:01.921084", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:43:20.531631", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:21.159704", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:21.168039", "file": "noisy_test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:43:31.676554", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:32.229817", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:32.238865", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:43:37.555936", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:38.084602", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:38.102574", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:43:43.993570", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:44.594517", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:44.605869", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:43:53.803918", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:54.372952", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:43:54.379365", "file": "noisy_test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T01:45:35.500509", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:45:36.042645", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T01:45:36.059344", "file": "noisy_test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:22:31.981049", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:22:32.536644", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:22:32.541924", "file": "noisy_test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:22:54.652364", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:22:55.187652", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:22:55.192627", "file": "noisy_test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:22:58.881240", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:22:59.419191", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:22:59.423567", "file": "noisy_test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:23:05.172322", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:23:05.769436", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:23:05.778657", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:26:28.578522", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:29.155217", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:29.170283", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:26:37.404403", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:37.966986", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:37.973445", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:26:43.528482", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:44.056706", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:44.061835", "file": "noisy_test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:26:48.011500", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:48.535275", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:48.540785", "file": "noisy_test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:26:51.789019", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:52.300051", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:52.305348", "file": "noisy_test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:26:56.088337", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:56.681128", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:26:56.696967", "file": "noisy_test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:27:00.249870", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:27:00.769774", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:27:00.780380", "file": "noisy_test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:27:09.745038", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:27:10.310075", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:27:10.316187", "file": "noisy_test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 2, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:28:21.492004", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:22.104513", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:22.709177", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:23.229886", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:23.785560", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:24.319334", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:24.324520", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:28:29.319195", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:29.842154", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:30.411638", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:30.945633", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:31.472574", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:32.026368", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:32.031669", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:28:39.271981", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:39.785644", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:40.328554", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:40.853158", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:41.419617", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:41.958319", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:28:41.963332", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:29:05.759214", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:29:06.273962", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:29:06.803201", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:29:07.317719", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:29:07.861325", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:29:08.358561", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:29:08.365755", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:36:13.247052", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:36:13.248424", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:36:13.249931", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:36:13.922267", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:36:13.923360", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:36:13.925277", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:36:14.659699", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:36:14.660792", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:36:14.662464", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:36:15.361249", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:36:15.362749", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:36:15.367263", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:36:16.068345", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:36:16.069505", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:36:16.071127", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:36:16.750888", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:36:16.751775", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:36:16.752953", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:36:16.758403", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:37:28.629902", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:28.630964", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:28.632895", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:29.403332", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:29.404235", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:29.405509", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:30.193047", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:30.194033", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:30.195523", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:30.902542", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:30.903525", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:30.904944", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:31.599872", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:31.601561", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:31.602855", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:32.285115", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:32.286071", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:32.287350", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:32.294796", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:37:37.206856", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:37.207911", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:37.209496", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:37.914059", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:37.915100", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:37.917010", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:38.609613", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:38.610623", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:38.612376", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:39.318911", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:39.323142", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:39.327664", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:40.103286", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:40.104440", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:40.106169", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:40.743705", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:40.744902", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:40.746583", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:40.754551", "file": "test.pdf", "privacy_mode": "none", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:37:56.189512", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:56.190729", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:56.192470", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:56.974459", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:56.975407", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:56.976737", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:57.799382", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:57.800348", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:57.801489", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:58.468076", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:58.469119", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:58.471100", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:59.195598", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:59.196654", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:59.198318", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:59.900532", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:37:59.901473", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:37:59.903002", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:37:59.916297", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:43:46.607969", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:46.609053", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:46.610644", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:47.336717", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:47.338021", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:47.339875", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:48.090497", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:48.091557", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:48.093202", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:48.783688", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:48.784773", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:48.786433", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:49.534744", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:49.535797", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:49.537984", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:50.250342", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:50.250923", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:50.252378", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:50.270205", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:43:58.694313", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:58.695142", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:58.696904", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:43:59.578839", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:43:59.579825", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:43:59.581253", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:00.301334", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:00.302738", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:00.304556", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:01.013348", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:01.014818", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:01.016520", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:01.695616", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:01.696771", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:01.698501", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:02.351228", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:02.352250", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:02.354184", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:02.361917", "file": "test.pdf", "privacy_mode": "signer", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:44:10.159016", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:10.160203", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:10.161893", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:10.892481", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:10.893704", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:10.895135", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:11.678767", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:11.679708", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:11.681286", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:12.365172", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:12.367611", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:12.369353", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:13.048130", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:13.049158", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:13.051201", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:13.758231", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:13.759899", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:13.761095", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:13.769939", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:44:20.105315", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:20.106451", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:20.108078", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:20.801775", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:20.802929", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:20.804511", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:21.578282", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:21.579446", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:21.581514", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:22.331994", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:22.332836", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:22.334152", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:23.137947", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:23.138978", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:23.140402", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:23.827165", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:23.828137", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:23.829619", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:23.837828", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:44:29.069058", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:29.070520", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:29.072150", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:29.740642", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:29.741830", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:29.743424", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:30.443225", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:30.444437", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:30.445590", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:31.122178", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:31.123242", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:31.124912", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:31.847574", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:31.848705", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:31.850522", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:32.577826", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:32.578492", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:32.579493", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:32.583954", "file": "test.pdf", "privacy_mode": "witness", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:44:42.389179", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:42.390095", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:42.391676", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:43.063876", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:43.064909", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:43.066788", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:43.780782", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:43.782039", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:43.783489", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:44.423266", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:44.424268", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:44.425974", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:45.128615", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:45.129589", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:45.131358", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:45.772886", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:45.773943", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:45.775667", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:45.787397", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:44:52.438938", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:52.439966", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:52.441717", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:53.190785", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:53.191890", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:53.193713", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:53.891556", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:53.892611", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:53.894400", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:54.589126", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:54.589837", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:54.591472", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:55.279390", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:55.280476", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:55.282295", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:55.949088", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:44:55.950419", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:44:55.951910", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:44:55.978140", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "blur", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:45:02.994032", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:02.995187", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:02.996930", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:03.753497", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:03.754473", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:03.755921", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:04.414829", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:04.416083", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:04.417694", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:05.103681", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:05.107147", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:05.109565", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:05.851432", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:05.853312", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:05.854893", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:06.586686", "file": "test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:06.588121", "file": "test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:06.590068", "file": "test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:06.599129", "file": "test.pdf", "privacy_mode": "medical", "redaction_style": "watermark", "signatures_detected": 6, "entities_redacted": 0, "error": null}
+{"timestamp": "2025-09-10T20:45:16.021304", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:16.022400", "file": "noisy_test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:16.024236", "file": "noisy_test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:16.747613", "file": "noisy_test.pdf", "event": "OCR retry", "avg_confidence_before": -1.0, "details": "Retried OCR with stronger contrast and denoising"}
+{"timestamp": "2025-09-10T20:45:16.748624", "file": "noisy_test.pdf", "event": "OCR output", "text": [""], "confidences": [-1.0]}
+{"timestamp": "2025-09-10T20:45:16.750151", "file": "noisy_test.pdf", "event": "NER output", "entities": []}
+{"timestamp": "2025-09-10T20:45:16.763210", "file": "noisy_test.pdf", "privacy_mode": "signer", "redaction_style": "black", "signatures_detected": 2, "entities_redacted": 0, "error": null}
