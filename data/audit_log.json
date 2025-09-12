@@ -1,6 +1,0 @@
-{"timestamp": "2025-09-04 01:13:26.909682", "file": "sample.pdf", "privacy_mode": "signer", "signatures_detected": 1, "entities_detected": 0}
-{"timestamp": "2025-09-04 01:14:38.342464", "file": "sample.pdf", "privacy_mode": "none", "signatures_detected": 0, "entities_detected": 0}
-{"timestamp": "2025-09-04 01:36:11.179121", "file": "sample.pdf", "privacy_mode": "signer", "signatures_detected": 1, "entities_detected": 0}
-{"timestamp": "2025-09-04 01:39:32.082716", "file": "sample.pdf", "privacy_mode": "signer", "signatures_detected": 0, "entities_detected": 0, "error": "Failed to convert PDF to image"}
-{"timestamp": "2025-09-04 15:17:01.824848", "file": "test.pdf", "privacy_mode": "none", "signatures_detected": 3, "entities_detected": 0, "error": null}
-{"timestamp": "2025-09-04 15:20:27.243890", "file": "test.pdf", "privacy_mode": "signer", "signatures_detected": 3, "entities_detected": 0, "error": null}
