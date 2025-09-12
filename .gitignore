@@ -1,20 +1,24 @@
-# Python
+# --- Python (Flask backend) ---
 __pycache__/
 *.pyc
-venv/
-*.pt
+*.pyo
+*.pyd
 *.pkl
+*.pt
+venv/
+*.log
 
-# Node.js
+# --- Node.js (React frontend) ---
 frontend/node_modules/
-frontend/.env.local
 frontend/build/
+frontend/.env.local
+frontend/.env
 
-# Data
+# --- Data files ---
 data/temp_image_*
 data/*.log
 data/redacted_*
 
-# Misc
+# --- OS / Misc ---
 .DS_Store
-*.env
+.env
