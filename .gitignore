@@ -14,6 +14,7 @@ build/
 dist/
 
 # --- Data files ---
+data/
 data/*.pdf
 data/temp_image_*
 data/redacted_*
