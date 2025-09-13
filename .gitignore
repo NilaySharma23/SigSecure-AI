@@ -9,10 +9,9 @@ venv/
 *.log
 
 # --- Node.js (React frontend) ---
-frontend/node_modules/
-frontend/build/
-frontend/.env.local
-frontend/.env
+node_modules/
+build/
+dist/
 
 # --- Data files ---
 data/temp_image_*
@@ -22,3 +21,4 @@ data/redacted_*
 # --- OS / Misc ---
 .DS_Store
 .env
+node_modules

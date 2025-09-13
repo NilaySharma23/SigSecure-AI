@@ -1,0 +1,45 @@
+/* frontend/src/App.css (updated with minor styling improvements) */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 48%;
+}
+
+.border {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.spinner-border {
+    margin: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.list-group-item pre {
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+iframe {
+    border: 1px solid #ccc;
+}
