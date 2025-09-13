@@ -22,3 +22,49 @@ data/redacted_*
 .DS_Store
 .env
 node_modules
+
+# Additional Python-related files
+*.egg-info/
+.pytest_cache/
+*.cache
+*.ipynb_checkpoints/
+coverage.xml
+*.cov
+*.coverage
+
+# Additional Node.js-related files
+*.log
+npm-debug.log*
+yarn.lock
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary or generated files
+data/*.pdf  # Exclude generated PDFs like test.pdf, noisy_test.pdf, and redacted outputs
+data/*.png  # Exclude signature.png or other temporary images
+data/audit_log.json  # Exclude audit logs to avoid committing sensitive processing data
+backend/data/  # Exclude the backend/data/ folder entirely, as it contains runtime-generated files
+frontend/public/*.pdf  # Prevent any PDFs accidentally placed in public/
+frontend/public/*.png
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# macOS-specific
+._*
+
+# Docker or CI/CD
+Dockerfile
+docker-compose.yml
+.github/
+
+# Sensitive or local configuration
+*.bak
+*.tmp
+*.backup

@@ -22,7 +22,15 @@ function App() {
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [latestLog, setLatestLog] = useState(null);
 
-  const handleFileChange = (e) => setFile(e.target.files[0]);
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+      setFile(selectedFile);
+      setOriginalUrl(URL.createObjectURL(selectedFile));  // Create blob URL immediately
+    } else {
+      setOriginalUrl(null);  // Clear if no file
+    }
+  };
 
   const handleUpload = async () => {
     if (!file) return;
@@ -38,7 +46,7 @@ function App() {
       if (response.ok) {
         const blob = await response.blob();
         setPreviewUrl(URL.createObjectURL(blob));
-        setOriginalUrl(URL.createObjectURL(file));
+        // Remove setOriginalUrl from here—it's now handled in handleFileChange
         fetchLogs();
         // Get the latest log
         const newLogs = await (await fetch('http://localhost:5000/api/audit_log')).json();
@@ -53,6 +61,15 @@ function App() {
       setError('Network error: ' + err.message);
     }
     setLoading(false);
+  };
+
+  const handleReset = () => {
+    if (originalUrl) URL.revokeObjectURL(originalUrl);
+    if (previewUrl) URL.revokeObjectURL(previewUrl);
+    setFile(null);
+    setPreviewUrl(null);
+    setOriginalUrl(null);
+    setError(null);
   };
 
   const fetchLogs = async () => {
@@ -121,7 +138,7 @@ function App() {
       </Modal>
       <DocumentPreview originalUrl={originalUrl} previewUrl={previewUrl} highlightOnly={highlightOnly} />
       <AuditLogs logs={logs} />
-      <Button variant="outline-danger" onClick={() => { setFile(null); setPreviewUrl(null); setOriginalUrl(null); setError(null); }} className="mt-3">
+      <Button variant="outline-danger" onClick={handleReset} className="mt-3">
         Reset
       </Button>
     </div>

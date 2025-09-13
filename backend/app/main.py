@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 load_dotenv()
 # Set UPLOAD_FOLDER to the data/ directory in the project root
-BASE_DIR = Path(__file__).resolve().parent.parent  # Go up two levels from app/ to SigSecure-AI/
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # Go up three levels from app/ to SigSecure-AI/
 UPLOAD_FOLDER = BASE_DIR / 'data'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 OUTPUT_FOLDER = UPLOAD_FOLDER / 'redacted'
