@@ -8,7 +8,6 @@ import { Modal, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShieldAlt } from '@fortawesome/free-solid-svg-icons';
 import ClipLoader from 'react-spinners/ClipLoader';
-
 function App() {
   const [file, setFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState(null);
@@ -21,21 +20,24 @@ function App() {
   const [error, setError] = useState(null);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [latestLog, setLatestLog] = useState(null);
-
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     if (selectedFile) {
       setFile(selectedFile);
-      setOriginalUrl(URL.createObjectURL(selectedFile));  // Create blob URL immediately
+      // Revoke previous URL to prevent memory leaks
+      if (originalUrl) URL.revokeObjectURL(originalUrl);
+      setOriginalUrl(URL.createObjectURL(selectedFile));  // Create new blob URL
     } else {
-      setOriginalUrl(null);  // Clear if no file
+      setFile(null);
+      if (originalUrl) URL.revokeObjectURL(originalUrl);
+      setOriginalUrl(null);
     }
   };
-
   const handleUpload = async () => {
     if (!file) return;
     setLoading(true);
     setError(null);
+    // Preserve originalUrl by not resetting it
     const formData = new FormData();
     formData.append('file', file);
     formData.append('privacy_mode', privacyMode);
@@ -44,9 +46,10 @@ function App() {
     try {
       const response = await fetch('http://localhost:5000/api/upload', { method: 'POST', body: formData });
       if (response.ok) {
+        // Revoke previous preview URL to prevent memory leaks
+        if (previewUrl) URL.revokeObjectURL(previewUrl);
         const blob = await response.blob();
         setPreviewUrl(URL.createObjectURL(blob));
-        // Remove setOriginalUrl from here—it's now handled in handleFileChange
         fetchLogs();
         // Get the latest log
         const newLogs = await (await fetch('http://localhost:5000/api/audit_log')).json();
@@ -54,24 +57,37 @@ function App() {
         setLatestLog(lastLog);
         setShowSuccessModal(true);
       } else {
-        const errData = await response.json();
-        setError(errData.error || 'Upload failed');
+        const errText = await response.text();
+        try {
+          const errData = JSON.parse(errText);
+          setError(errData.error || 'Upload failed');
+        } catch {
+          setError('Upload failed: ' + errText);
+        }
       }
     } catch (err) {
       setError('Network error: ' + err.message);
     }
     setLoading(false);
   };
-
-  const handleReset = () => {
+  const handleReset = async () => {
     if (originalUrl) URL.revokeObjectURL(originalUrl);
     if (previewUrl) URL.revokeObjectURL(previewUrl);
     setFile(null);
     setPreviewUrl(null);
     setOriginalUrl(null);
     setError(null);
+    try {
+      const response = await fetch('http://localhost:5000/api/clear_logs', { method: 'POST' });
+      if (response.ok) {
+        fetchLogs();
+      } else {
+        setError('Failed to clear logs');
+      }
+    } catch (err) {
+      setError('Network error clearing logs: ' + err.message);
+    }
   };
-
   const fetchLogs = async () => {
     try {
       const response = await fetch('http://localhost:5000/api/audit_log');
@@ -81,11 +97,9 @@ function App() {
       console.error('Failed to fetch logs:', err);
     }
   };
-
   useEffect(() => {
     fetchLogs();
   }, []);
-
   return (
     <div className="container mt-5">
       <h1 className="app-header">SigSecure AI <FontAwesomeIcon icon={faShieldAlt} className="text-primary" /></h1>
@@ -144,5 +158,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

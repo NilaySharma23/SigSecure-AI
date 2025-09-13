@@ -14,9 +14,10 @@ build/
 dist/
 
 # --- Data files ---
+data/*.pdf
 data/temp_image_*
-data/*.log
 data/redacted_*
+data/*.log
 
 # --- OS / Misc ---
 .DS_Store

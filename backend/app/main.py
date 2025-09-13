@@ -39,7 +39,9 @@ def upload_file():
         privacy_mode = request.form.get('privacy_mode', 'none')
         redaction_style = request.form.get('redaction_style', 'black')  # Default to black
         highlight_only = request.form.get('highlight_only', 'false').lower() == 'true'  # Parse as boolean
-        filename = secure_filename(file.filename)
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        original_filename = secure_filename(file.filename)
+        filename = f"{timestamp}_{original_filename}"
         input_path = UPLOAD_FOLDER / filename
         file.save(input_path)
         signatures = detect_signatures(str(input_path))
@@ -48,11 +50,16 @@ def upload_file():
         redacted_path_str, entities_detected = detect_and_redact_text_near_signatures(
             str(input_path), signatures, str(redacted_path), privacy_mode, redaction_style, highlight_only
         )
+        # Clean up the temporary input file
+        try:
+            input_path.unlink()  # Delete the original uploaded file
+        except Exception as cleanup_error:
+            print(f"Failed to delete temporary file {input_path}: {cleanup_error}")
         if redacted_path_str is None:
             raise Exception("Redaction failed")
         audit_log = {
             "timestamp": datetime.datetime.now().isoformat(),
-            "file": filename,
+            "file": original_filename,
             "privacy_mode": privacy_mode,
             "redaction_style": redaction_style,
             "signatures_detected": len(signatures),
@@ -84,6 +91,12 @@ def upload_file():
         with open(UPLOAD_FOLDER / 'audit_log.json', 'a') as f:
             json.dump(audit_log, f)
             f.write('\n')
+        # Clean up the temporary input file on error (if it exists)
+        if 'input_path' in locals():
+            try:
+                input_path.unlink()
+            except Exception as cleanup_error:
+                print(f"Failed to delete temporary file {input_path}: {cleanup_error}")
         return jsonify({"error": str(e)}), 500
 @app.route('/api/audit_log', methods=['GET'])
 def get_audit_log():
@@ -96,5 +109,14 @@ def get_audit_log():
         return jsonify([]), 200
     except Exception as e:
         return jsonify({"error": f"Failed to read audit log: {str(e)}"}), 500
+@app.route('/api/clear_logs', methods=['POST'])
+def clear_logs():
+    audit_log_path = UPLOAD_FOLDER / 'audit_log.json'
+    try:
+        with open(audit_log_path, 'w') as f:
+            pass
+        return jsonify({"status": "Logs cleared"})
+    except Exception as e:
+        return jsonify({"error": f"Failed to clear logs: {str(e)}"}), 500
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
