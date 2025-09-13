@@ -1,1 +1,0 @@
-{"timestamp": "2025-09-13T23:39:41.063650", "file": "medical_test.pdf", "privacy_mode": "medical", "redaction_style": "black", "signatures_detected": 7, "entities_redacted": {"PERSON": 4, "DATE": 0, "GPE": 0}, "highlight_only": false, "error": null}
